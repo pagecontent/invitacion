@@ -217,7 +217,7 @@
                 <div
                     class="flex items-center justify-center gap-2 bg-white/90 p-3 rounded-2xl border border-pink-100 shadow-sm">
                     <i class="fa-solid fa-location-dot text-[#D46A85] text-lg"></i>
-                    <span class="text-xs md:text-sm font-semibold">Jr. Tarapacá #146</span>
+                    <span class="text-xs md:text-sm font-semibold">Jr. Micaela Bastidas #708, Amarilis</span>
                 </div>
             </div>
 
@@ -320,8 +320,9 @@
             <!-- Botón Agendar en Calendario -->
             <div class="mt-10">
                 <a id="btn-calendar"
-                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Baby+Shower+-+Melody&dates=20261114T230000Z/20261115T030000Z&details=¡Celebremos+juntos+el+Baby+Shower+de+Melody!&location=Jr.+Tarapac%C3%A1+%23146"
+                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Baby+Shower+-+Melody&dates=20261114T230000Z/20261115T030000Z&details=¡Celebremos+juntos+el+Baby+Shower+de+Melody!&location=Jr.+Micaela+Bastidas+%23708%2C+Amarilis"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="inline-flex items-center gap-3 bg-pink-50 hover:bg-pink-100 text-[#9E3D58] border border-pink-200 px-6 py-3 rounded-full text-sm font-semibold transition-all shadow-sm hover:scale-105">
                     <i class="fa-regular fa-calendar-plus text-lg text-amber-500"></i>
                     <span>Agendar en Google Calendar</span>
@@ -366,26 +367,44 @@
 
                 <!-- Tarjeta Ubicación -->
                 <div
-                    class="glass-card glass-card-hover p-8 rounded-3xl border border-white text-left flex flex-col justify-between shadow-xl">
+                    class="glass-card glass-card-hover p-6 md:p-8 rounded-3xl border border-white text-left flex flex-col justify-between shadow-xl">
                     <div>
                         <div
-                            class="w-14 h-14 bg-pink-100 text-[#D46A85] rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-sm">
+                            class="w-14 h-14 bg-pink-100 text-[#D46A85] rounded-2xl flex items-center justify-center text-2xl mb-5 shadow-sm">
                             <i class="fa-solid fa-map-location-dot"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-slate-800 mb-2">Dirección</h3>
-                        <p class="text-slate-800 font-bold text-lg mb-1">Jr. Tarapacá #146</p>
-                        <p class="text-gray-600 text-sm">Dirección del evento especial</p>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-1">Dirección</h3>
+                        <p class="text-[#D46A85] font-bold text-lg mb-1">Jr. Micaela Bastidas #708</p>
+                        <p class="text-gray-600 text-sm mb-4">Amarilis, Huánuco • Lugar del evento</p>
 
-                        <!-- Map Actions -->
-                        <div class="mt-6 space-y-3">
-                            <a href="https://maps.app.goo.gl/2QJg5SKvEuKdZtc47" target="_blank"
-                                class="w-full inline-flex items-center justify-center gap-2 bg-[#9E3D58] hover:bg-[#87394f] text-white px-5 py-3 rounded-2xl text-sm font-semibold transition-all shadow-md">
+                        <!-- Vista Previa de Mapa Interactivo Integrado -->
+                        <div class="rounded-2xl overflow-hidden border border-pink-200 shadow-inner h-40 w-full mb-5">
+                            <iframe
+                                title="Ubicación Baby Shower Melody"
+                                src="https://maps.google.com/maps?q=-9.9386621,-76.2379363&hl=es&z=16&output=embed"
+                                class="w-full h-full border-0"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <!-- Acciones de Navegación Universales -->
+                        <div class="space-y-2.5">
+                            <a href="https://maps.app.goo.gl/CYYSsraowHrpC3oaA" target="_blank" rel="noopener noreferrer"
+                                class="w-full inline-flex items-center justify-center gap-2 bg-[#9E3D58] hover:bg-[#87394f] text-white px-5 py-3 rounded-2xl text-sm font-semibold transition-all shadow-md hover:scale-[1.01] active:scale-[0.99]">
                                 <i class="fa-solid fa-map-pin text-pink-300"></i> Abrir en Google Maps
                             </a>
-                            <button onclick="copyAddress('Jr. Tarapacá #146')"
-                                class="w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-pink-50 text-[#9E3D58] border border-pink-200 px-5 py-2.5 rounded-2xl text-xs font-semibold transition-all shadow-sm">
-                                <i class="fa-regular fa-copy"></i> Copiar Dirección
-                            </button>
+
+                            <div class="grid grid-cols-2 gap-2">
+                                <a href="https://www.waze.com/ul?ll=-9.9386621,-76.2379363&navigate=yes" target="_blank" rel="noopener noreferrer"
+                                    class="inline-flex items-center justify-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-900 border border-blue-200 px-3 py-2.5 rounded-2xl text-xs font-semibold transition-all shadow-sm">
+                                    <i class="fa-brands fa-waze text-blue-600 text-sm"></i> Abrir en Waze
+                                </a>
+                                <button onclick="copyAddress('Jr. Micaela Bastidas #708, Amarilis')"
+                                    class="inline-flex items-center justify-center gap-1.5 bg-white hover:bg-pink-50 text-[#9E3D58] border border-pink-200 px-3 py-2.5 rounded-2xl text-xs font-semibold transition-all shadow-sm">
+                                    <i class="fa-regular fa-copy"></i> Copiar Dirección
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -743,7 +762,7 @@
                 Gracias por formar parte de este momento inolvidable en nuestras vidas.
             </p>
             <p class="text-xs text-pink-200/60">
-                14 de Noviembre de 2026 • Jr. Tarapacá #146 • 6:00 PM
+                14 de Noviembre de 2026 • Jr. Micaela Bastidas #708, Amarilis • 6:00 PM
             </p>
             <div class="w-12 h-0.5 bg-pink-400/30 mx-auto my-6"></div>
             <p class="text-xs text-pink-200/60">
