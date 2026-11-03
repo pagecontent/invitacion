@@ -210,7 +210,7 @@ if (rsvpForm) {
         if (message) {
             waMessage += `• *Mensaje:* "${message}"\n`;
         }
-        waMessage += `\nConfirmado para el Baby Shower de Melody (Sábado 14 de Noviembre - 6:00 PM).`;
+        waMessage += `\nConfirmado para el Baby Shower de Melody (Sábado 14 de Noviembre - 6:00 PM - Jr. Micaela Bastidas #708, Amarilis).`;
 
         const phoneNumber = '51977918904'; // Número de confirmación WhatsApp (977 918 904)
         const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(waMessage)}`;
