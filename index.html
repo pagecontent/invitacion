@@ -87,8 +87,9 @@
     <!-- Canvas de Partículas / Pétalos Flotantes -->
     <canvas id="particles-canvas"></canvas>
 
-    <!-- Audio de Fondo -->
+    <!-- Audio de Fondo (Camilo, Evaluna Montaner - Índigo) -->
     <audio id="bg-music" loop preload="auto">
+        <source src="indigo.mp3" type="audio/mpeg">
         <source src="musica.mp3" type="audio/mpeg">
     </audio>
 
@@ -121,8 +122,8 @@
                 </p>
 
                 <div class="my-4 flex justify-center">
-                    <img src="conejita-badge.png" alt="Baby Shower Melody"
-                        class="w-40 md:w-48 max-w-full drop-shadow-xl floating-slow rounded-full border-2 border-white">
+                    <img src="conejo-2-crop.png" alt="Baby Shower Melody"
+                        class="w-36 md:w-44 max-w-full drop-shadow-xl floating-slow">
                 </div>
 
                 <button id="btn-open"
@@ -191,10 +192,10 @@
                 Melody
             </h1>
 
-            <!-- Ilustración de la Conejita con moño, tutú y arcoíris -->
+            <!-- Ilustración de la Conejita Bailarina -->
             <div class="my-5 flex justify-center">
-                <img src="conejita-badge.png" alt="Baby Shower Melody"
-                    class="w-56 md:w-64 max-w-full drop-shadow-2xl hover:scale-105 transition-all duration-500 floating-slow rounded-full border-4 border-white shadow-pink-200/50">
+                <img src="conejo-4-crop.png" alt="Baby Shower Melody"
+                    class="w-56 md:w-64 max-w-full drop-shadow-2xl hover:scale-105 transition-all duration-500 floating-slow">
             </div>
 
             <p class="mt-4 text-base md:text-xl text-gray-600 font-light italic max-w-md mx-auto">
@@ -258,12 +259,12 @@
             <!-- Tarjeta con los nombres de los Papás -->
             <div
                 class="glass-card glass-card-hover p-8 md:p-10 rounded-[2.5rem] border border-pink-200/80 shadow-xl max-w-xl mx-auto relative overflow-hidden">
-                <div
-                    class="w-16 h-16 bg-pink-100/90 text-[#D46A85] rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner text-2xl border border-pink-200">
-                    <i class="fa-solid fa-hands-holding-child"></i>
+                <div class="my-2 flex justify-center">
+                    <img src="conejo-3-crop.png" alt="Melody"
+                        class="w-32 md:w-36 max-w-full drop-shadow-md floating-slow">
                 </div>
 
-                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 text-[#9E3D58]">
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 text-[#9E3D58] mt-4">
                     <div
                         class="bg-pink-50 px-5 py-3 rounded-2xl border border-pink-200 flex flex-col items-center shadow-sm w-full sm:w-auto">
                         <span class="text-[10px] uppercase font-bold tracking-wider text-[#9E3D58]/70">Madre</span>
@@ -459,9 +460,9 @@
     <!-- Dress Code Section (Vestimenta Libre) -->
     <section class="py-16 bg-[#FFF7F9] border-y border-pink-100" data-aos="fade-up">
         <div class="container mx-auto px-4 max-w-2xl text-center">
-            <div
-                class="w-12 h-12 bg-white text-[#D46A85] rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-pink-200 text-xl">
-                <i class="fa-solid fa-shirt"></i>
+            <div class="my-2 flex justify-center">
+                <img src="conejo-1-crop.png" alt="Código de Vestimenta"
+                    class="w-32 md:w-36 max-w-full drop-shadow-md floating-slow">
             </div>
             <h2 class="text-3xl font-serif-title font-bold text-slate-800 mb-2">Código de Vestimenta</h2>
             <p class="text-[#D46A85] font-semibold text-lg mb-3">¡Vestimenta Libre!</p>
@@ -501,7 +502,8 @@
                             Yape
                         </span>
                         <h3 class="text-xl font-bold text-slate-800 mb-1">Código QR Yape</h3>
-                        <p class="text-gray-500 text-xs mb-4">Escanea el código QR directamente desde tu app de Yape.</p>
+                        <p class="text-gray-500 text-xs mb-4">Escanea el código QR directamente desde tu app de Yape.
+                        </p>
 
                         <div class="bg-white p-3 rounded-2xl border-2 border-purple-100 shadow-md inline-block my-1">
                             <img src="qr-yape-clean.png" alt="Código QR Yape"
@@ -535,13 +537,17 @@
                             </div>
                         </div>
 
-                        <p class="text-gray-500 text-xs mb-4">Puedes realizar tu transferencia o abono a través de nuestras cuentas BCP:</p>
+                        <p class="text-gray-500 text-xs mb-4">Puedes realizar tu transferencia o abono a través de
+                            nuestras cuentas BCP:</p>
 
                         <!-- Cuenta Soles BCP -->
-                        <div class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 mb-3 flex items-center justify-between gap-2">
+                        <div
+                            class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 mb-3 flex items-center justify-between gap-2">
                             <div class="overflow-hidden">
-                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">Cuenta BCP Soles</span>
-                                <span class="text-sm md:text-base font-mono font-bold text-slate-800 tracking-wide block truncate">36502354964098</span>
+                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">Cuenta BCP
+                                    Soles</span>
+                                <span
+                                    class="text-sm md:text-base font-mono font-bold text-slate-800 tracking-wide block truncate">36502354964098</span>
                             </div>
                             <button type="button" onclick="copyToClipboard('36502354964098', 'Cuenta BCP Soles')"
                                 class="px-3.5 py-2 bg-white hover:bg-pink-100 text-[#9E3D58] border border-pink-200 rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-1.5 shrink-0 hover:scale-105 active:scale-95">
@@ -550,10 +556,13 @@
                         </div>
 
                         <!-- CCI BCP -->
-                        <div class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 flex items-center justify-between gap-2">
+                        <div
+                            class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 flex items-center justify-between gap-2">
                             <div class="overflow-hidden">
-                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">CCI Interbancario (BCP)</span>
-                                <span class="text-xs md:text-sm font-mono font-bold text-slate-800 tracking-wide block truncate">00236510235496409856</span>
+                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">CCI Interbancario
+                                    (BCP)</span>
+                                <span
+                                    class="text-xs md:text-sm font-mono font-bold text-slate-800 tracking-wide block truncate">00236510235496409856</span>
                             </div>
                             <button type="button" onclick="copyToClipboard('00236510235496409856', 'CCI BCP')"
                                 class="px-3.5 py-2 bg-white hover:bg-pink-100 text-[#9E3D58] border border-pink-200 rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-1.5 shrink-0 hover:scale-105 active:scale-95">
@@ -563,7 +572,8 @@
                     </div>
 
                     <div class="mt-4 pt-4 border-t border-pink-100 text-center">
-                        <span class="text-xs text-blue-900 font-semibold bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 inline-block">
+                        <span
+                            class="text-xs text-blue-900 font-semibold bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 inline-block">
                             🏦 Transferencias directas o interbancarias
                         </span>
                     </div>
@@ -587,13 +597,18 @@
                             </div>
                         </div>
 
-                        <p class="text-gray-500 text-xs mb-4">Puedes realizar tu transferencia o abono a través de nuestras cuentas Interbank:</p>
+                        <p class="text-gray-500 text-xs mb-4">Puedes realizar tu transferencia o abono a través de
+                            nuestras cuentas Interbank:</p>
 
                         <!-- Cuenta Simple Soles Interbank -->
-                        <div class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 mb-3 flex items-center justify-between gap-2">
+                        <div
+                            class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 mb-3 flex items-center justify-between gap-2">
                             <div class="overflow-hidden">
-                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">Cuenta Simple Soles</span>
-                                <span class="text-sm md:text-base font-mono font-bold text-slate-800 tracking-wide block truncate">898 3460487023</span>
+                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">Cuenta Simple
+                                    Soles</span>
+                                <span
+                                    class="text-sm md:text-base font-mono font-bold text-slate-800 tracking-wide block truncate">898
+                                    3460487023</span>
                             </div>
                             <button type="button" onclick="copyToClipboard('898 3460487023', 'Cuenta Simple Interbank')"
                                 class="px-3.5 py-2 bg-white hover:bg-pink-100 text-[#9E3D58] border border-pink-200 rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-1.5 shrink-0 hover:scale-105 active:scale-95">
@@ -602,10 +617,13 @@
                         </div>
 
                         <!-- CCI Interbank -->
-                        <div class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 flex items-center justify-between gap-2">
+                        <div
+                            class="bg-pink-50/60 p-3.5 rounded-2xl border border-pink-100 flex items-center justify-between gap-2">
                             <div class="overflow-hidden">
-                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">CCI Interbancario (Interbank)</span>
-                                <span class="text-xs md:text-sm font-mono font-bold text-slate-800 tracking-wide block truncate">00389801346048702345</span>
+                                <span class="text-[10px] uppercase font-bold text-[#9E3D58] block">CCI Interbancario
+                                    (Interbank)</span>
+                                <span
+                                    class="text-xs md:text-sm font-mono font-bold text-slate-800 tracking-wide block truncate">00389801346048702345</span>
                             </div>
                             <button type="button" onclick="copyToClipboard('00389801346048702345', 'CCI Interbank')"
                                 class="px-3.5 py-2 bg-white hover:bg-pink-100 text-[#9E3D58] border border-pink-200 rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-1.5 shrink-0 hover:scale-105 active:scale-95">
@@ -615,7 +633,8 @@
                     </div>
 
                     <div class="mt-4 pt-4 border-t border-pink-100 text-center">
-                        <span class="text-xs text-emerald-900 font-semibold bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200 inline-block">
+                        <span
+                            class="text-xs text-emerald-900 font-semibold bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200 inline-block">
                             🏦 Transferencias directas o interbancarias
                         </span>
                     </div>
@@ -635,7 +654,8 @@
                         </span>
                         <h3 class="text-xl font-bold text-slate-800 mb-2">Lluvia de Sobres</h3>
                         <p class="text-gray-500 text-xs mb-4">
-                            Si prefieres entregarnos tu presente el día del evento, tendremos disponible un buzón especial.
+                            Si prefieres entregarnos tu presente el día del evento, tendremos disponible un buzón
+                            especial.
                         </p>
 
                         <div class="p-5 bg-pink-50/80 rounded-2xl border border-pink-100 text-center my-2">
